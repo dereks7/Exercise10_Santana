@@ -54,6 +54,6 @@ public class ex10_santana
         double tottax = total*tax;
         double subtotal = tottax + total;
 
-        System.out.println( "Subtotal: $"+ total + "\nTax: $"+ tottax + "\nTotal: $"+ subtotal);
+        System.out.printf( "Subtotal: $%.2f\nTax: $%.2f\nTotal: $%.2f",total,tottax,subtotal);
     }
 }
